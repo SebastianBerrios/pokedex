@@ -14,7 +14,7 @@ export default function SocialMedia() {
         role="link"
         href="https://github.com/SebastianBerrios/pokedex"
       >
-        <img src={code} alt="code" />
+        <img src={code} alt="code" loading="lazy" />
       </a>
       <a
         target="_blank"
@@ -22,7 +22,7 @@ export default function SocialMedia() {
         role="link"
         href="https://github.com/SebastianBerrios"
       >
-        <img src={github} alt="github" />
+        <img src={github} alt="github" loading="lazy" />
       </a>
       <a
         target="_blank"
@@ -30,7 +30,7 @@ export default function SocialMedia() {
         role="link"
         href="https://www.youtube.com/@electrocodee"
       >
-        <img src={youtube} alt="youtube" />
+        <img src={youtube} alt="youtube" loading="lazy" />
       </a>
       <a
         target="_blank"
@@ -38,7 +38,7 @@ export default function SocialMedia() {
         role="link"
         href="https://www.instagram.com/electrocodee/"
       >
-        <img src={instagram} alt="instagram" />
+        <img src={instagram} alt="instagram" loading="lazy" />
       </a>
       <a
         target="_blank"
@@ -46,7 +46,7 @@ export default function SocialMedia() {
         role="link"
         href="https://www.tiktok.com/@electrocodee"
       >
-        <img src={tiktok} alt="tiktok" />
+        <img src={tiktok} alt="tiktok" loading="lazy" />
       </a>
       <a
         target="_blank"
@@ -54,7 +54,7 @@ export default function SocialMedia() {
         role="link"
         href="https://www.discord.gg/4mj2bemRkr"
       >
-        <img src={discord} alt="discord" />
+        <img src={discord} alt="discord" loading="lazy" />
       </a>
     </div>
   );

@@ -16,12 +16,12 @@ export default function PokemonMeasure({
   return (
     <div className="flex justify-center items-center gap-14">
       <div className="grid grid-cols-2 items-center justify-items-center">
-        <img src={weighting} alt="weighting" />
+        <img src={weighting} alt="weighting" loading="lazy" />
         <span>{weightKilogram} kg</span>
         <span className="col-span-2 row-start-2 text-gray-500">Weight</span>
       </div>
       <div className="grid grid-cols-2 items-center justify-items-center">
-        <img className="-rotate-45" src={rule} alt="rule" />
+        <img className="-rotate-45" src={rule} alt="rule" loading="lazy" />
         <span>{heightmeter} m</span>
         <span className="col-span-2 row-start-2 text-gray-500">Height</span>
       </div>

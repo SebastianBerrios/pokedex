@@ -22,6 +22,7 @@ export default function Home() {
             className="w-40 m-auto mb-3"
             src={pokemonlogo}
             alt="pokemon-logo"
+            loading="lazy"
           />
         </Link>
         <TypeButton
@@ -49,6 +50,7 @@ export default function Home() {
                   className="h-36 justify-self-center"
                   src={pokemon.image}
                   alt={`${pokemon.image}`}
+                  loading="lazy"
                 />
               </div>
             </Link>

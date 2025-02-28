@@ -26,7 +26,12 @@ export default function SearchBar({
         placeholder="Search your Pokémon..."
         onChange={handleSearch}
       />
-      <img className="size-12 absolute right-0" src={pokeball} alt="pokeball" />
+      <img
+        className="size-12 absolute right-0"
+        src={pokeball}
+        alt="pokeball"
+        loading="lazy"
+      />
     </div>
   );
 }

@@ -9,6 +9,7 @@ export default function NotFound() {
           src={notfound}
           alt="Not Found - 404"
           className="mx-auto mb-6 w-96 h-72"
+          loading="lazy"
         />
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           404 - Page Not Found
